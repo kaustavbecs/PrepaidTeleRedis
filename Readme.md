@@ -39,7 +39,9 @@ The `Redis-Elasticache-Transactions-with-Lambda.zip` file now contains the packa
 
 ## Steps to Run the Tests
 
-To run the tests, you need to deploy the lambda to AWS and install the development dependencies in your local. Here's how you can run the tests:
+First, you need to make sure that the packaged  lambda from the previous step and the other related resources (IAM roles, ElasticCache, VPC, Subnet, etc.) are deployed in your AWS account. The deployment steps are not included here.
+
+To run the tests locally, you need to install the development dependencies in your local. Here's how you can run the tests:
 
 1. Navigate to the root of the project directory (if you haven't already):
 
